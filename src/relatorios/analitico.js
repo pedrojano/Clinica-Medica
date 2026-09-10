@@ -1,6 +1,6 @@
 import { bancoEmMemoria } from "../data/memoria.js";
 
-export function buscarConultasAvancadas(filtros = {}) {
+export function buscarConsultasAvancada(filtros = {}) {
   const { idMedico, idPaciente, status, data } = filtros;
 
   const resultados = bancoEmMemoria.consultas.filter((consulta) => {
